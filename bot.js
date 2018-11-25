@@ -105,9 +105,9 @@ client5.on('message', message => {
 
 
 //////////////////////////////////////////////////////////////هنا التوكن vvvv وهنا عددد التوكنات نفس السورس
-client.login(process.env.TOKEN);
-client1.login(process.env.TOKEN1);
-client2.login(process.env.TOKEN2);
-client3.login(process.env.TOKEN3);
-client4.login(process.env.TOKEN4);
-client5.login(process.env.TOKEN5);
+client.login(process.env.BOT_TOKEN);
+  client1.login(process.env.BOT_TOKEN1);
+  client2.login(process.env.BOT_TOKEN2);
+  client3.login(process.env.BOT_TOKEN3);
+  client4.login(process.env.BOT_TOKEN4);
+  client5.login(process.env.BOT_TOKEN5);
